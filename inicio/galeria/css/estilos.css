@@ -1,0 +1,720 @@
+html, body { 
+	overflow-x: hidden !important; 
+} 
+
+/*Barrra de navegacion Baron Balche--------------------------------------------------------------------------------------------------*/
+#ulBarraBaron{
+	margin-right: 10%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*INICIO DE ESTILOS PARA LA GALERIA---------------------------------------------------------------------------------------------------------------*/
+#bodygal{
+	background: url(../img/fondo4.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+.gallery-block.grid-gallery{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+	opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+	transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+	margin-bottom: 20px;
+}
+
+
+@media (min-width: 576px) {
+
+	.gallery-block.grid-gallery .scale-on-hover:hover{
+		transform: scale(1.05);
+		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+	}
+}
+.gallery-block.grid-gallery .item .description{
+	display: grid;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	font-size: 17px;
+	line-height: 18px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	opacity: 1;
+	color: #fff;
+	transition: 0.8s ease;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.gallery-block.grid-gallery .item .description .description-heading{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.gallery-block.grid-gallery .item .description .description-body{
+	font-size: 0.8em;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+
+@media (min-width: 576px) {
+
+	.gallery-block.grid-gallery .item .description {
+		opacity: 0; 
+	}
+
+	.gallery-block.grid-gallery .item a:hover .description {
+		opacity: 1; 
+	} 
+
+	.gallery-block .zoom-on-hover:hover .image {
+		transform: scale(1.3);
+		opacity: 0.7; 
+	}
+}
+.titleGaleria{
+	color: #460932;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 5vw;
+	font-weight: 100;
+}
+
+@media only screen and (max-width: 414px){
+	.titleGaleria{
+		color: #460932;
+		font-family: 'Zilla Slab Highlight', cursive;
+		font-size: 2.5em;
+		font-weight: 100;
+	}
+}
+/*FIN DE ESTILOS PARA LA GALERIA----------------------------------------------------------------------------------------------------------------------*/
+
+/*COLOR PARA LA BARRA DE NAVEGACION INCLUYECDO SROLLED-----------------------------------------------------------------------------------------------*/
+.bgcolor{
+	/*background-color: rgba(0,0,0,0.692);*/
+
+
+}
+.bgcolor.scrolled{
+	/*background-color: #241112;*/
+	background-color: #a9757d;
+	
+
+}
+.bgcolor1{
+	background-color: #a9757d;
+	
+
+}
+#nava{
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#text1{
+	color:#460932;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#textbodega{
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#text2{
+	color: #460932;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#text3{
+	color: #460932;
+	font-weight:400;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 30px;
+
+}
+#text8{
+	color: #460932;
+	font-weight:400;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 30px;
+
+}
+#nava:hover{
+	border-bottom: 4px solid  #460932;
+	;
+
+
+}
+#textbodega:hover{
+	border-bottom: 4px solid  #460932;
+	;
+
+
+}
+#text1:hover{
+	border-bottom: 4px solid  white;
+	;
+
+
+	}#text2:hover{
+		border-bottom: 4px solid  white;
+		;
+
+
+	}
+	.hovercard:hover{
+		border-bottom: 4px solid  pink;
+
+	}
+	li{
+		padding-right: 4%;
+	}
+	.navbar-nav{
+		margin-right: 20%;
+
+	}
+	#gallery-block{
+		margin-right: 5%;
+		margin-left: 5%;
+
+	}
+
+	/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+}
+
+/*  Card Vino----------------------------------------------------------------------------------------------------------------------------*/
+
+.title{
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 5vw;
+	font-weight: 100;
+}
+.titleVino{
+	color: #460932;
+	font-weight: 500;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.7em;
+
+}
+.textVino{
+	color: #460932;
+	font-weight: 500;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+
+}
+#titleVinoP{
+	color: #460932;
+	font-weight: 500;
+	font-family: 'Zilla Slab Highlight', cursive;
+	text-align: center;
+
+	font-size: 3.5em;
+
+
+}
+.title3{
+	color: #460932;
+	font-weight: 500;
+	font-family: 'Zilla Slab Highlight', cursive;
+	text-align: justify;
+
+	font-size: 1.5em;
+
+}
+/*Categorias-----------------------------------------------------------------------------------------------------------------------*/
+.item1{
+	color: white;
+	font-weight: 500;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.2em;
+	background-color: #460932;
+}
+
+.item2{
+	color: #460932;
+	font-weight: 500;
+	/*font-family: 'Great Vibes', cursive;*/
+	/*font-family: 'Mr Dafoe', cursive;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.2em;
+
+
+}
+.item2:hover{
+	background-color: #460932;
+	color: white;
+}
+.item3{
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 3.5em;
+	font-weight: 100;
+
+
+}
+.item4{
+	color: #460932;
+	/*font-family: 'Mr Dafoe', cursive;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.5em;
+	font-weight: bold;
+
+
+}
+.dark{
+	font-weight: 500;
+	font-family: 'Roboto Mono', monospace;
+
+	/*font-family: 'Great Vibes', cursive;*/
+	/*font-family: 'Mr Dafoe', cursive;*/
+	font-size: 1em;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*BANNER DE INICIO------------------------------------------------------------------------------------------------------------------------*/
+#carouselExampleCaptions{
+	border-bottom: 20px solid  #a9757d; 
+}
+h5{
+	margin-left: 1000px;
+	margin-bottom: 350px;
+
+}
+.contenedor{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+
+}
+#La{
+	color: #460932
+}
+#buena{
+	color: #8bb121;
+}
+
+.texto-encima{
+	position: absolute;
+	top: 20%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 6vw;
+	font-weight: 100;
+}
+.texto-encima1{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 7vw;
+	font-weight: 100;
+}
+
+@media only screen and (max-width: 414px){
+	.texto-encima1{
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		color: #460932;
+		font-family: 'Mr Dafoe', cursive;
+		font-size: 7vw;
+		font-weight: 100;
+	}
+}
+.centrado{
+	position: absolute;
+	top: 15%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+}
+#logocopa{
+	width: 150%;
+	height: auto;
+}
+
+@media only screen and (max-width: 414px){
+	#logocopa{
+		width: 75px;
+		height: 75px;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.texto-encima{
+		position: absolute;
+		top: 25%;
+		left: 70%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-family: 'Mr Dafoe', cursive;
+		font-size: 6vw;
+		font-weight: 100;
+	}
+}
+
+
+
+.css-typing p {
+	border-right: .10em solid transparent;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+
+.css-typing p:nth-child(1) {
+	width: 37em;
+	-webkit-animation: type 7s steps(40, end), blink .5s step-end infinite alternate;
+	animation: type 15s steps(40, end), blink .5s step-end infinite alternate;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.card{
+	border:none;
+}
+
+
+@keyframes type {
+	0% {
+		width: 0;
+	}
+	1% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes type {
+	0% {
+		width: 0;
+	}
+	1% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blink {
+	10% {
+		border-color: transparent;
+	}
+}
+@-webkit-keyframes blink {
+	10% {
+		border-color: transparent;
+	}
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*ESTILOS PARA EL APARTADO DE SOBRE NOSOTROS-----------------------------------------------------------------------------------------------------*/
+
+.title{
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+
+
+b{
+	font-weight: bold;
+}
+.parrafo{
+	color: #460932;
+	/*font-family: 'Great Vibes', cursive;*/
+	font-family: 'Roboto Mono', monospace;
+
+	font-size: 1.2em;
+	border: none;
+	font-weight: 300;
+	text-align: justify;
+
+}
+
+#img_nosotros{
+	width: 70%;
+	height: auto;
+}
+
+#cardSobrenosotros{
+	margin-left: 5%;
+}
+
+
+
+/*FOOTER----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#fondo-imag{
+
+	background: url(../img/footer1.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+.titleform{
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 35px;
+	text-align: justify;
+}
+
+#fomr_subtitle{
+	color: #460932;
+	font-family: 'Roboto Mono', monospace;
+
+	font-size: 1.2em;
+	border: none;
+	font-weight: bold;
+	text-align: justify;
+
+}
+#fomr_subtitle1{
+	text-align: center;
+	color: #460932;
+	font-family: 'Roboto Mono', monospace;
+
+	font-size: .9em;
+	border: none;
+	/*font-weight: bold;*/
+
+}
+#fomr_subtitle2{
+	text-align: center;
+	color: #460932;
+	font-family: 'Roboto Mono', monospace;
+
+	font-size: 1.2em;
+	border: none;
+	font-weight: bold;
+
+}
+#form-submit{
+	background-color: #460932;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+
+}
+
+
+
+/*REDES SOCIALES-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.container {
+	height: 3em;
+	left: 45%;
+	margin: -1.5em 0 0 -6em;
+	position: absolute;
+	top: 140%;
+	width: 12em;
+}
+
+.social {
+	position: relative;
+	height: 3em;
+	width: 13.5em;
+}
+
+.social li {
+	display: block;
+	height: 4em;
+	line-height: 4em;
+	margin: -2.2em;
+	position: absolute;
+	-webkit-transition: -webkit-transform .7s;
+	-moz-transition: -moz-transform .7s;
+	-ms-transition: -ms-transform .7s;
+	-o-transition: -o-transform .7s;
+	transition: transform .7s;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+	width: 4em;
+}
+
+.social a {
+	color: #fffdf0;
+	display: block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 4em; 
+}
+
+.social li:hover {
+	-webkit-transform: scale(1.3,1.3) rotate(45deg);
+	-moz-transform: scale(1.3,1.3) rotate(45deg);
+	-ms-transform: scale(1.3,1.3) rotate(45deg);
+	-o-transform: scale(1.3,1.3) rotate(45deg);
+	transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+	background: #155b9d;
+	left: 0;
+	top: 0%;
+}
+
+.twitter {
+	background: #1a9ec4;
+	bottom: 0;
+	left: 25%;
+
+}
+
+.dribbble {
+	background: #d05f8f;
+	left: 50%;
+	top: 0%;
+}
+
+.behance {
+	background: black;
+	bottom: 0;
+	left: 75%;
+}
+
+.linked-in {
+	background: #ff0000;
+	left: 100%;
+	top: 0%;
+}
+
+
+
+/*PREVEEDOR-----------------------------------------------------------------------------------------------------------------------*/
+
+.list-group-item-action {
+	color: white;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 35px;
+	text-align: justify;
+	/*border: solid #201d3a; */
+	background-color: #460932;
+
+
+}
+
+#lemaprov{
+	/*text-align: center;*/
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+
+	/*font-size: 1.2vw;*/
+	/*border: none;*/
+	font-weight: bold;	
+
+}
+.list-group-item-action:hover{
+	background-color: #201d3a;
+	color: white;
+
+}
+.list-group-item-action:hover > #lemaprov{
+	background-color: #201d3a;
+	color: white;
+
+}
+#imgprov{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+
+/*ESTRELLAS-------------------------------------------------------------------------------------------------------------------*/
+.ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`) 
+	http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo, 
+		pero de esta manera (siempre que no le demos padding), 
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+		display: inline-block;
+	}
+	.ec-stars-wrapper a {
+		text-decoration: none;
+		display: inline-block;
+		/* Volver a dar tamaño al texto */
+		font-size: 32px;
+		font-size: 2rem;
+
+		color: #888;
+
+	}
+
+	.ec-stars-wrapper:hover a {
+		color: #460932;
+		
+	}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+ .ec-stars-wrapper > a:hover ~ a {
+ 	color: #888;
+ }

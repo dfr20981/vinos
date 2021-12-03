@@ -1,0 +1,71 @@
+#sec1{
+	background-color: #460932;
+}
+
+#sec3{
+	background-color: #460932;
+}
+
+#text3 {
+    color: #570b3e;
+	font-weight: 400;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 24px;
+	text-shadow: 1px 1px #000;
+	padding: 4px;
+}
+
+.text_menu{	
+	color: #fff !important;
+	text-shadow: 1px 1px #770050;
+	font-weight: 600;
+}
+	.text_menu:hover{	
+		color: #fff !important;
+		text-shadow: 1px 1px #770050;
+		font-weight: 600;		
+	}
+
+.imgTab1{
+	width: 25px;
+}
+
+.imgTab2{
+	width: 30px;
+	height: 60px;
+}
+
+.imgTab3{
+	width: 25px;
+	height: 25px;
+}		
+
+.mas_proveedor{
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	background: #771c59;
+	right: 20px;
+	bottom: 144px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+}
+
+.mas_proveedor span{
+	font-size: 6em;
+	top: -0.45em;
+	position: relative;
+	color: #fff;
+}
+
+.mas_proveedorH{
+	position: absolute;
+	width: 0em;
+	height: 0em;
+	background: #000;
+	right: 20px;
+	bottom: 144px;
+	border-radius: 50%;
+	display:none;
+}

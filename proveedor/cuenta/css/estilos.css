@@ -1,0 +1,55 @@
+
+.bg-dark {
+    background-color: #460932 !important;
+    color: white;
+}
+.bg-light{
+	background-color: #a9757d !important;
+
+}
+#nameProv{
+	 font-family: 'Mr Dafoe', cursive;
+	 font-size: 30px;
+
+}
+#cardDatos{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+h1{
+	
+	font-size: 40px;
+	font-weight: 400;
+	color: #460932;
+font-family: 'Zilla Slab Highlight', cursive;
+text-align: justify;
+}
+#logoDatos{
+	background-color: #460932;
+}
+label{
+	font-weight: bold;
+}
+.modal-header{
+	background-color: #460932;
+	color: white;
+}
+.close{
+	color: white;
+
+}
+.close:hover{
+	color: white;
+
+}
+#btnGuardarModal{
+	background-color: #460932;
+}
+.custom-file-input ~ .custom-file-label::after {
+    content: "Examinar";
+    
+}
+.card-body {
+	padding: 0rem;
+}

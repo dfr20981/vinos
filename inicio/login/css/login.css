@@ -1,0 +1,124 @@
+html, body { 
+	overflow-x: hidden !important; 
+} 
+
+body{
+
+	background: url(../img/fondo_registro.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+/*body:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+*/
+.card{
+	margin-right:35%;
+	margin-left: 35%;
+	margin-top: 7%;
+}
+
+@media only screen and (max-width: 414px){
+	.card{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60%;
+		
+	}
+}
+@media only screen and (max-width: 768px){
+	.card{
+	margin-left: 2%;
+	margin-right: 2%;
+		
+	}
+}
+#titleregistro{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+font-size: 3em;
+font-weight: 100;
+text-align: center;
+}
+label{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+
+
+}
+#form-control{
+	
+	border: 1px solid  #460932;
+}
+#btnIS{
+	margin-top: 15px;
+	margin-right: 50px;
+
+}
+#nava{
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#text1{
+	color:white;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+#textbodega{
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+
+}
+li {
+    padding-right: 4%;
+}
+.centradoR {
+    position: absolute;
+    top: 18%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+   
+}
+@media only screen and (max-width: 414px){
+	.centradoR{
+	    position: absolute;
+    top: 2%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width:50px;
+    height:50px;
+		
+	}
+}
+@media only screen and (max-width: 414px){
+	.card{
+		margin-top: 50%;
+	}
+
+	#lgoRegistro{
+		width:100px;
+		 height:100px;
+
+	}
+@media only screen and (max-width: 414px){
+	#lgoRegistro{
+		width:200;
+		 height:200;
+	}
+

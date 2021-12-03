@@ -1,0 +1,71 @@
+.img_footer1{
+
+
+	 background: url(../img/footer1.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+}	
+#TituloMapa{
+	/*color: white;*/
+	color: #460932;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 5vw;
+	font-weight: 100;
+}
+/*body{
+	 background: url(../img/mapa.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}*/
+.mb-5, .my-5 {
+    margin-bottom: 0rem !important;
+}
+
+#buena {
+    color: #8bb121;
+}
+.list-group-item{
+	margin-bottom: 8px;
+}
+.card-img-top{
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 414px){
+	.card-img-top{
+		width: 30px;
+		height: 60px;
+		text-align: center;
+		margin-left: 30px;
+
+	}
+}
+.titleP{
+	color: #460932;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 9px;
+}
+@media only screen and (max-width: 414px){
+	.titleP{
+		text-align: center;
+	}
+}
+#rowPrincipal{
+	background-color: #460932;
+	 width:200px;
+	  height:40px;
+}
+@media only screen and (max-width: 414px){
+	#rowPrincipal{
+		 width:130px;
+	  height: auto;
+	}
+}
